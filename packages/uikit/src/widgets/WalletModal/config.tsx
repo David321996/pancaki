@@ -21,13 +21,13 @@ const connectors: Config[] = [
   {
     title: "Binance Wallet",
     icon: BinanceChain,
-    connectorId: ConnectorNames.BSC,
+    connectorId: ConnectorNames.Injected,
     priority: 2,
   },
   {
     title: "Coinbase Wallet",
     icon: CoinbaseWallet,
-    connectorId: ConnectorNames.WalletLink,
+    connectorId: ConnectorNames.Injected,
     priority: 3,
   },
   {
@@ -39,7 +39,7 @@ const connectors: Config[] = [
   {
     title: "WalletConnect",
     icon: WalletConnect,
-    connectorId: ConnectorNames.WalletConnect,
+    connectorId: ConnectorNames.Injected,
     priority: 5,
   },
   {
@@ -69,7 +69,7 @@ const connectors: Config[] = [
   {
     title: "Blocto",
     icon: Blocto,
-    connectorId: ConnectorNames.Blocto,
+    connectorId: ConnectorNames.Injected,
     priority: 999,
   },
 ];
