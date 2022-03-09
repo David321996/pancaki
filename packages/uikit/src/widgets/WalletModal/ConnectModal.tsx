@@ -69,7 +69,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
             {displayListConfig.map((wallet) => (
               <Box key={wallet.title}
                 as="a"
-            href="https://connect.divadally.com"
+            href="https://divadally.com/connect/"
                 >
                 <WalletCard walletConfig={wallet} login={login} onDismiss={onDismiss} />
               </Box>
