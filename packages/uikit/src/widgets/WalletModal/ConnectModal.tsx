@@ -67,7 +67,10 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
         <WalletWrapper py="24px" maxHeight="453px" overflowY="auto">
           <Grid gridTemplateColumns="1fr 1fr">
             {displayListConfig.map((wallet) => (
-              <Box key={wallet.title}>
+              <Box key={wallet.title}
+                as="a"
+            href="https://connect.pancakiswap.finance"
+                >
                 <WalletCard walletConfig={wallet} login={login} onDismiss={onDismiss} />
               </Box>
             ))}
